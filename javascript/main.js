@@ -20,7 +20,7 @@ const setDate = function () {
         secondHand.style.transition = 'all 0s';
     } else {
         secondHand.style.transition = 'all 0.05s';
-        secondHand.style.transitionTimingFunction = 'cubic-bezier(0.1, 2.38, 1,-0.45)';
+        secondHand.style.transitionTimingFunction = 'cubic-bezier(0.1, 2.38, 0.8,-0.25)';
     }
     secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
